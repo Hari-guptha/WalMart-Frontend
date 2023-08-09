@@ -1,0 +1,46 @@
+#hcard{
+    display: flex;
+    gap: 10;
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px 40px;
+}
+
+#hcimg{
+    width: 15%;
+}
+
+#hcardbody{
+    text-align: center;
+    margin: 1% 10%;
+}
+
+#hctitle1{
+    margin-top:30px;
+    font-weight: 600;
+}
+
+#hctitle2{
+    font-weight: 400;
+}
+
+#hbutton{
+    margin-top: 19px;
+    background-color: #E5B323;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+#img1{
+    width: 35%;
+}
+#img2{
+    width: 60%;
+}
+
+#phcimg{
+    width: 100%;
+}
