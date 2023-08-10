@@ -22,7 +22,7 @@ const SunglassMain = () => {
                         <div style={{ display: "flex", gap: 20 }}>
                             <button id="phonebtn">Buy</button>
                             <button id="phonebtn">Add Cart</button>
-                        </div>
+                        </div>  
                     </div>
                     <img  style={{width:"400px",height:"550px"}} src={glass} alt="" />
                 </div>
