@@ -9,6 +9,8 @@ import { Route, Routes } from "react-router-dom"
 import FileUploadComponent from "./Components/Dropfile"
 import WatchCanvas from "./Components/WatchModel"
 import WatchMain from "./Components/WatchMain"
+import SunglassMain from "./Components/SunGlass"
+import ThreeGlassCanvas from "./Components/SunGlassModel"
 
 
 export const App = () => {
@@ -23,7 +25,8 @@ export const App = () => {
       <Route path='/PhoneMain' element={ <PhoneMain/>} />
       <Route path='/DropFile' element={ <FileUploadComponent/>} />
       <Route path='/WatchModel' element={ <WatchCanvas/>} />
-      <Route path='/WatchMain' element={ <WatchMain/>} />
+      <Route path='/glassMain' element={ <SunglassMain/>} />
+      <Route path='/glassmodel' element={ <ThreeGlassCanvas/>} />
     </Routes>
       <Footer/>
     </div>
