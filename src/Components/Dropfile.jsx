@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../assets/css/DropFile.css'
 import upload from '../assets/img/file.png'
 import folder from '../assets/img/folder.png'
+import { Box } from '@mui/material';
 
 
 function FileUploadComponent() {
@@ -28,7 +29,7 @@ function FileUploadComponent() {
 
     return (
         <div>
-            <div
+            <div style={{marginTop:"80px"}}
                 className="dropbox"
                 onDrop={handleDrop}
                 onDragOver={handleDragOver}
@@ -50,6 +51,9 @@ function FileUploadComponent() {
                     </div>
                 )}
             </div>
+            <Box sx={{display:{sm:"none",xs:"block"},marginBottom:"300px"}}>
+
+</Box>
         </div>
     );
 }

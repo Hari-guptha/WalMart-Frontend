@@ -32,16 +32,24 @@ const HomeBody = () => {
                 <div style={{ display: "flex", margin: '30px 40px' }}>
                     <div>
                         <div style={{ display: "flex", gap: 10 }}>
-                            <img src={shirt} id='img1' alt="shirt" />
-                            <img src={laptop} alt="laptop" id='img2' />
+                        <div id='img1' >
+                            <img src={shirt}  id='hmimg'  alt="shirt" />
+                            </div>
+                            <div id='img2' >
+                            <img src={laptop}  id='hmimg' alt="laptop" />
+                            </div>
                         </div>
                         <div style={{ display: "flex", gap: 10, marginTop: "20px" }}>
-                            <img src={watch} id='img2' alt="shirt" />
-                            <img src={ring} alt="laptop" id='img1' />
+                            <div id='img4' >
+                            <img src={watch} id='hmimg' alt="watch" />
+                            </div>
+                            <div id='img3' >
+                                <img src={ring} id='hmimg' alt="ring" />
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <img style={{ width: '100%', height: "100%" }} src={phone} alt="phone" />
+                    <div id='img5'>
+                    <img src={phone} id='hmimg' alt="ring" />
                     </div>
                 </div>
                 <div id="hcard">
@@ -51,6 +59,32 @@ const HomeBody = () => {
                         <h5 id='hctitle2'>Introducing our innovative 'Product Detection through Image' feature! No need to stress about knowing the product name - simply upload an image and let us identify it for you.</h5>
                         <div style={{ display: "flex", justifyContent: "center" }}>
                             <button id='hbutton'>Try It Out</button>
+                        </div>
+                    </div>
+                </div>
+                <h1 style={{ textAlign: "center", margin: "50px 0px" }}>
+                    Recommended Product
+                </h1>
+                <div style={{ display: "flex", margin: '30px 40px' }}>
+                <div id='img5'>
+                    <img src={phone} id='hmimg' alt="ring" />
+                    </div>
+                    <div>
+                        <div style={{ display: "flex", gap: 10 }}>
+                        <div id='img1' >
+                            <img src={shirt}  id='hmimg'  alt="shirt" />
+                            </div>
+                            <div id='img2' >
+                            <img src={laptop}  id='hmimg' alt="laptop" />
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", gap: 10, marginTop: "20px" }}>
+                            <div id='img4' >
+                            <img src={watch} id='hmimg' alt="watch" />
+                            </div>
+                            <div id='img3' >
+                                <img src={ring} id='hmimg' alt="ring" />
+                            </div>
                         </div>
                     </div>
                 </div>
